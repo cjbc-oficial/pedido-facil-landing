@@ -1,0 +1,32 @@
+/* Identidade oficial Pedido Fácil® — referência visual 2026 */
+:root{--navy:#020617;--navy2:#07112d;--blue:#7447ff;--gold:#10e6d1;--cyan:#10e6d1;--violet:#a93cff;--cream:#f5f7fb;--ink:#0b1028;--muted:#667085;--line:#e4e7ec}
+html,body{max-width:100%;overflow-x:hidden}
+.nav-wrap{background:rgba(2,6,23,.94);border-color:#26305a;color:#fff}
+.nav-links{color:#b7bfd9}.nav-links a:hover{color:var(--cyan)}
+.brand-mark,.mini-logo{position:relative;background:linear-gradient(145deg,#11e8d3 0%,#168df3 48%,#8b3fff 82%,#d43cff 100%);color:#fff;box-shadow:0 0 20px #6f50ff55;border:1px solid #72f9ee55;font-style:italic;font-size:16px;transform:skew(-7deg)}
+.brand-mark:after,.mini-logo:after{content:"✓";position:absolute;right:-4px;bottom:-5px;width:14px;height:14px;border-radius:50%;display:grid;place-items:center;background:#031028;color:var(--cyan);font-size:8px;border:1px solid #10e6d177}
+.btn{background:linear-gradient(100deg,#04cfc0 0%,#147ff2 48%,#7a43ff 100%);box-shadow:0 10px 28px #6550ff4a;border:1px solid #56eee466}
+.btn:hover{box-shadow:0 14px 34px #0dd8cd44}
+.hero{background:radial-gradient(circle at 78% 28%,#34206d 0%,#10143b 23%,transparent 48%),linear-gradient(135deg,#020617 0%,#050a21 58%,#090523 100%);color:#fff}
+.hero:before{background-image:linear-gradient(#19e6d00d 1px,transparent 1px),linear-gradient(90deg,#8b48ff0f 1px,transparent 1px);mask-image:linear-gradient(90deg,transparent,black 35%,black)}
+.hero-glow{border-color:#10e6d133;box-shadow:0 0 0 70px #8b3fff0a,0 0 0 140px #10e6d108}
+.hero h1 em,.section-heading h2 em,.benefit-grid h2 em,.pricing-grid h2 em,.faq-grid h2 em{background:linear-gradient(90deg,#13e6d2,#369cf7 45%,#9a4cff 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{color:#b8c0d8}.hero .eyebrow{color:#75e7dc}.hero .trust-row{color:#aab4cf}.hero .btn-ghost{background:#0b1230;color:#fff;border-color:#34406b}
+.desktop-mock{border-color:#5d54a455;box-shadow:0 35px 80px #0009,0 0 45px #713dff24}.mock-body aside,.mini-sidebar{background:#04091e}.mock-body aside b{background:linear-gradient(90deg,#14586e,#5134a3)}
+.dash-head button,.phone-mock button{background:linear-gradient(90deg,#11cdbf,#6f48ff)}.chart span,.bars i{background:linear-gradient(#15dfd0,#7549ff)}
+.phone-mock{border-color:#080d24;box-shadow:0 30px 65px #000b,0 0 35px #8b3fff2e}.float-card>span,.badge-card b{color:#00a998}.float-card>span{background:#dffdf8}
+.eyebrow{color:#405778}.eyebrow>span{background:linear-gradient(90deg,var(--cyan),var(--violet))}
+.problem-grid span,.checks span,.included span::first-letter,.accordion summary span{color:#7447ff}
+.solution-note>span{background:linear-gradient(145deg,#12dac9,#7447ff);color:#fff}
+.dark{background:radial-gradient(circle at 80% 15%,#3a1d764f,transparent 34%),linear-gradient(135deg,#020617,#07112d)}
+.dark:before{background:radial-gradient(circle at 75% 10%,#823dff33,transparent 32%)}
+.section-heading em,.dark h2 em,.cta-box em{color:var(--cyan)}
+.step-icon{border-color:#6851b1;background:#0d1235;color:var(--cyan)}
+.feature-icon,.audience-grid span{background:linear-gradient(145deg,#dffffa,#e8e0ff);color:#6842ef}
+.feature-grid article:hover{border-color:#8e64ff;box-shadow:0 18px 40px #6b45ff18}
+.benefit-panel{background:radial-gradient(circle at 20% 10%,#13dcc532,transparent 40%),linear-gradient(145deg,#111a42,#070b22);box-shadow:inset 0 0 0 1px #5750a055,0 25px 60px #0b102833}
+.brand-card.gold{background:linear-gradient(135deg,#0acbbd,#197ee4)}.brand-card.blue{background:linear-gradient(135deg,#6540e6,#aa36ef)}.brand-card.white{background:linear-gradient(145deg,#fff,#e9e6ff)}
+.brand-card .pf{background:linear-gradient(145deg,#10dccc,#7246ff);color:#fff}
+.price-card{border-top-color:transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#11dacb,#7850ff,#b83cfa) border-box;border:2px solid transparent;box-shadow:0 25px 60px #4528a01c}.price-top>b{background:#e9e1ff;color:#6840d1}
+.cta-box{background:radial-gradient(circle at 50% 120%,#4c2bb9 0%,transparent 50%),linear-gradient(135deg,#020617,#0a1232);border:1px solid #6246b566}.gold-btn{background:linear-gradient(90deg,#13e1d0,#187eea,#8247ff);color:#fff}
+footer{background:#010411;color:#919bb9}.copyright{border-color:#20294c}
