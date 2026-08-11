@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.next/
+.wrangler/
+.npm-cache/
+.runtime-home/
+.env*
+!.env.example
+*.log
