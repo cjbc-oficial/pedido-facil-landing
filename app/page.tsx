@@ -1,3 +1,5 @@
+import BackToTop from "./BackToTop";
+
 const features = [
   ["PD", "Pedidos padronizados", "Monte pedidos com produtos, quantidades, preços, descontos e condições comerciais em um único fluxo."],
   ["CL", "Clientes organizados", "Mantenha os principais dados comerciais dos clientes disponíveis para consulta e novos pedidos."],
@@ -57,7 +59,10 @@ export default function Home() {
         <nav className="nav container" aria-label="Navegação principal">
           <a href="#inicio" className="brand" aria-label="Pedido Fácil - início"><span className="brand-mark">P</span><span>Pedido Fácil<sup>®</sup></span></a>
           <div className="nav-links"><a href="#recursos">Recursos</a><a href="#white-label">White Label</a><a href="#plano">Plano</a><a href="#faq">Dúvidas</a></div>
-          <a className="btn btn-small" href="https://pedidofacil.cjbc.com.br" target="_blank" rel="noreferrer">Entrar no Pedido Fácil</a>
+          <div className="nav-actions">
+            <a className="nav-contact" href="https://wa.me/5531972219836" target="_blank" rel="noreferrer" aria-label="Falar com a CJBC no WhatsApp"><span className="contact-full">Falar com a CJBC</span><span className="contact-short">CJBC</span></a>
+            <a className="btn btn-small" href="https://pedidofacil.cjbc.com.br" target="_blank" rel="noreferrer">Entrar no Pedido Fácil</a>
+          </div>
         </nav>
       </header>
 
@@ -104,6 +109,7 @@ export default function Home() {
       <section className="final-cta" id="contato"><div className="container"><div className="cta-box"><div className="cta-lines"/><div className="eyebrow light"><span /> Próximo passo</div><h2>Sua operação comercial pode ser<br/><em>muito mais simples.</em></h2><p>Conheça o Pedido Fácil® e veja como organizar seus pedidos em uma plataforma criada para a realidade de representantes e pequenas operações comerciais.</p><div className="actions centered-actions"><a className="btn gold-btn" href="https://pedidofacil.cjbc.com.br" target="_blank" rel="noreferrer">Entrar no Pedido Fácil →</a><a className="btn btn-dark-ghost" href="https://wa.me/5531972219836" target="_blank" rel="noreferrer" aria-label="Falar com a CJBC no WhatsApp">Falar com a CJBC no WhatsApp</a></div></div></div></section>
 
       <footer><div className="container footer-grid"><div><a href="#inicio" className="brand light-brand"><span className="brand-mark">P</span><span>Pedido Fácil<sup>®</sup></span></a><p>Uma solução desenvolvida pela<br/><b>CJBC | Celso Jr Business Center</b></p></div><div className="footer-links"><a href="#sobre">Sobre</a><a href="#recursos">Recursos</a><a href="#plano">Planos</a><a href="#contato">Contato</a><a href="#">Política de Privacidade</a></div></div><div className="container copyright"><span>© 2026 CJBC. Todos os direitos reservados.</span><span>Simplicidade · Organização · Confiança</span></div></footer>
+      <BackToTop />
     </main>
   );
 }
