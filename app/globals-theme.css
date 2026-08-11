@@ -30,3 +30,42 @@ html,body{max-width:100%;overflow-x:hidden}
 .price-card{border-top-color:transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#11dacb,#7850ff,#b83cfa) border-box;border:2px solid transparent;box-shadow:0 25px 60px #4528a01c}.price-top>b{background:#e9e1ff;color:#6840d1}
 .cta-box{background:radial-gradient(circle at 50% 120%,#4c2bb9 0%,transparent 50%),linear-gradient(135deg,#020617,#0a1232);border:1px solid #6246b566}.gold-btn{background:linear-gradient(90deg,#13e1d0,#187eea,#8247ff);color:#fff}
 footer{background:#010411;color:#919bb9}.copyright{border-color:#20294c}
+
+/* Ajustes de homologação: navegação, leitura e conversão */
+html{scroll-padding-top:88px}
+.nav-wrap{box-shadow:0 8px 26px #02061720}
+.nav{gap:22px}
+.brand{flex:0 0 auto}
+.nav-links{gap:28px;font-size:15px}
+.nav-actions{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.nav-contact{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 15px;border:1px solid #526084;border-radius:10px;color:#e8ecfb;font-size:14px;font-weight:700;transition:.25s}
+.nav-contact:hover{border-color:var(--cyan);color:var(--cyan);background:#101737}
+.contact-short{display:none}
+.btn{font-size:15px}
+.btn-small{font-size:14px}
+.eyebrow{font-size:12px}
+.trust-row{font-size:14px}
+.section-heading p,.split>p,.pricing-grid>div>p,.wl-grid>div>p,.cta-box>p,.faq-grid>div>p,.audience-call{font-size:16px}
+.problem-grid b{font-size:15px}
+.solution-note p{font-size:16px}
+.steps small{font-size:10px}
+.steps h3{font-size:19px}
+.steps p{font-size:15px;line-height:1.6}
+.feature-grid h3{font-size:17px}
+.feature-grid p{font-size:15px;line-height:1.65}
+.lead-small{font-size:17px}
+.checks span,.wl-list,.included span{font-size:15px}
+.audience-grid h3{font-size:15px}
+.wl-quote{font-size:15px;line-height:1.6}
+.brand-card b{font-size:15px}
+.brand-card span{font-size:10px}
+.setup p{font-size:13px}
+.price-card .safe{font-size:11px}
+.accordion summary{font-size:16px}
+.accordion p{font-size:15px}
+.footer-grid p,.footer-links{font-size:13px}
+.copyright{font-size:11px}
+.back-to-top{position:fixed;right:24px;bottom:24px;z-index:60;width:48px;height:48px;border:1px solid #59eee080;border-radius:14px;background:linear-gradient(145deg,#0b1738,#241259);color:#fff;box-shadow:0 14px 34px #02061755;display:grid;place-items:center;font:800 22px var(--font-montserrat);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .25s,transform .25s,visibility .25s,border-color .25s}
+.back-to-top.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+.back-to-top:hover{border-color:var(--cyan);color:var(--cyan);transform:translateY(-2px)}
+.back-to-top:focus-visible,.nav-contact:focus-visible,.btn:focus-visible{outline:3px solid #10e6d166;outline-offset:3px}
